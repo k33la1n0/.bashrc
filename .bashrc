@@ -100,8 +100,8 @@ alias lampon='/home/lv/bin/xampp/xampp-start.sh'
 alias lampoff='/home/lv/bin/xampp/xampp-stop.sh'
 alias new='/home/lv/bin/newsys_install/newsys-install_000.sh'
 
-export PATH="$PATH:/home/lv/"
-export PATH="$PATH:/home/lv/bin/"
+export PATH="$PATH:/home/$USER/"
+export PATH="$PATH:/home/$USER/bin/"
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
