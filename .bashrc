@@ -92,13 +92,13 @@ alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -lisa'
 alias tmacs='emacs -nw'
-alias update='/home/lv/bin/sysup/sysup.sh'
+alias update='/home/$USER/bin/sysup/sysup.sh'
 alias install='sudo apt install'
 alias search='sudo apt search'
 alias root='sudo -i'
-alias lampon='/home/lv/bin/xampp/xampp-start.sh'
-alias lampoff='/home/lv/bin/xampp/xampp-stop.sh'
-alias new='/home/lv/bin/newsys_install/newsys-install_000.sh'
+alias lampon='/home/$USER/bin/xampp/xampp-start.sh'
+alias lampoff='/home/$USER/bin/xampp/xampp-stop.sh'
+alias new='/home/$USER/bin/newsys_install/newsys-install_000.sh'
 
 export PATH="$PATH:/home/$USER/"
 export PATH="$PATH:/home/$USER/bin/"
