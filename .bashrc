@@ -98,7 +98,7 @@ alias search='sudo apt search'
 alias root='sudo -i'
 alias lampon='/home/$USER/bin/xampp/xampp-start.sh'
 alias lampoff='/home/$USER/bin/xampp/xampp-stop.sh'
-alias new='/home/$USER/bin/newsys_install/newsys-install_000.sh'
+alias new='/home/$USER/bin/newsysinstall/newsysinstall.sh'
 
 export PATH="$PATH:/home/$USER/"
 export PATH="$PATH:/home/$USER/bin/"
