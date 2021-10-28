@@ -96,8 +96,8 @@ alias update='/home/$USER/bin/sysup/sysup.sh'
 alias install='sudo apt install'
 alias search='sudo apt search'
 alias root='sudo -i'
-alias lampon='/home/$USER/bin/xampp/xampp-start.sh'
-alias lampoff='/home/$USER/bin/xampp/xampp-stop.sh'
+alias lampon='/home/$USER/bin/xmpp/xampp-start.sh'
+alias lampoff='/home/$USER/bin/xmpp/xampp-stop.sh'
 alias new='/home/$USER/bin/newsysinstall/newsysinstall.sh'
 
 export PATH="$PATH:/home/$USER/"
