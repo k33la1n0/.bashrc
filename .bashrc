@@ -91,6 +91,7 @@ fi
 alias ll='ls -alF'
 alias la='ls -A'
 alias l='ls -lisa'
+alias d='exa -l'
 alias tmacs='emacs -nw'
 alias update='/home/$USER/bin/sysup/sysup.sh'
 alias install='sudo apt install'
@@ -126,3 +127,6 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+export PATH="$PATH:/home/$USER/"
+export PATH="$PATH:/home/$USER/bin/"
